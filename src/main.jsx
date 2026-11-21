@@ -120,8 +120,12 @@ function LiveClock() {
 
 function LagosMap({ compact = false }) {
   return <div className={`lagos-map ${compact ? 'lagos-map--compact' : ''}`}>
-    <iframe title="Map showing Lagos, Nigeria" src="https://www.openstreetmap.org/export/embed.html?bbox=3.215%2C6.405%2C3.575%2C6.675&layer=mapnik&marker=6.5244%2C3.3792" loading="lazy"></iframe>
-    <div className="map-label"><span className="map-pulse"></span><span>LAGOS / NIGERIA</span><strong>06°31′N 03°23′E</strong></div>
+    <iframe
+  title="Map showing Abuja, Nigeria"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=7.22%2C8.94%2C7.58%2C9.21&layer=mapnik&marker=9.0765%2C7.3986"
+  loading="lazy"
+/>
+    <div className="map-label"><span className="map-pulse"></span><span>ABUJA / NIGERIA</span><strong>06°31′N 03°23′E</strong></div>
   </div>
 }
 
